@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'latt-synthetic-splash-screen',
   template: `
     <div class="latt-synthetic-splash-screen">
-      <section class="splash-screen-logo"><img src="/assets/logo/logo.svg" alt="logo" /></section>
+      <section class="splash-screen-logo"><img src="/assets/logo/logo.png" alt="logo" /></section>
       <h2 class="splash-screen-title">Latt</h2>
     </div>
   `,
