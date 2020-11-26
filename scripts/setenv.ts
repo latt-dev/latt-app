@@ -24,7 +24,7 @@ export const environment = {
 };
 `;
 
-writeFile(targetPath, envFileContent, function (err) {
+writeFile(targetPath, envFileContent, function(err) {
   if (err) {
     console.log(err);
   }
