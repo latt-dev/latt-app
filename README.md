@@ -1,6 +1,6 @@
 # Latt
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cae208c7-837b-4c15-9b0c-d5b7db6fb89a/deploy-status)](https://app.netlify.com/sites/latt-app/deploys) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 **Latt** is Ionic/Angular PWA generated with Ionic CLI. It aims to provide a clear and concise way for aspiring web developers to gain knowledge necessary to thrive in particular set of technologies.
 
