@@ -9,21 +9,21 @@
 1. `npm install`
 1. `npm start`<sup>1</sup>
 
-*<sup>1</sup> You will need to add `.env` file with necessary [environment variables](#obfuscated-environment-variables) to the root folder when working with the app locally*
+_<sup>1</sup> You will need to add `.env` file with necessary [environment variables](#obfuscated-environment-variables) to the root folder when working with the app locally_
 
 ## Project Structure
 
-* `e2e` - End-To-End tests folder
-* `scripts` - environment scripts
-* `src` - application source code
-    * `_redirects` - file with configs required for correct routing at Netlify server
-* `www` - git-ignored production build folder
-* `.env` - mandatory git-ignored file with environment variables (request repository owner)
-* `.prettierrc` - code formatting configuration 
+- `e2e` - End-To-End tests folder
+- `scripts` - environment scripts
+- `src` - application source code
+  - `_redirects` - file with configs required for correct routing at Netlify server
+- `www` - git-ignored production build folder
+- `.env` - mandatory git-ignored file with environment variables (request repository owner)
+- `.prettierrc` - code formatting configuration
 
 ## Custom Schematics
 
-* Component schematics are set to generate a [single-file component](https://egghead.io/lessons/angular-use-single-file-components-by-default-in-angular) (with inline styles and template) with `ChangeDetectionStrategy.OnPush` by default. `flat` modifier is set to `true` to enforce using [SCAM pattern](https://indepth.dev/emulating-tree-shakable-components-using-single-component-angular-modules/) (single component Angular modules)
+- Component schematics are set to generate a [single-file component](https://egghead.io/lessons/angular-use-single-file-components-by-default-in-angular) (with inline styles and template) with `ChangeDetectionStrategy.OnPush` by default. `flat` modifier is set to `true` to enforce using [SCAM pattern](https://indepth.dev/emulating-tree-shakable-components-using-single-component-angular-modules/) (single component Angular modules)
 
 ## Obfuscated Environment Variables
 
@@ -43,7 +43,7 @@ LATT_PROD_API_URL=ProductionBackEndAPIServerUrl
 
 ## Deployment
 
-The `master` branch of this repository is automatically deployed [to Netlify](https://latt.to). 
+The `master` branch of this repository is automatically deployed [to Netlify](https://latt.to).
 
 ## Contributing
 
