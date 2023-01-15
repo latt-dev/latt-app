@@ -1,6 +1,6 @@
 # Latt
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cae208c7-837b-4c15-9b0c-d5b7db6fb89a/deploy-status)](https://app.netlify.com/sites/latt-app/deploys) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 **Latt** is Ionic/Angular PWA generated with Ionic CLI. It aims to provide a clear and concise way for aspiring web developers to gain knowledge necessary to thrive in particular set of technologies.
 
@@ -16,7 +16,7 @@ _<sup>1</sup> You will need to add `.env` file with necessary [environment varia
 - `e2e` - End-To-End tests folder
 - `scripts` - environment scripts
 - `src` - application source code
-  - `_redirects` - file with configs required for correct routing at Netlify server
+  - `_redirects` - file with configs required for correct routing at Netlify server (not deployed to Netlify temporarily currently)
 - `www` - git-ignored production build folder
 - `.env` - mandatory git-ignored file with environment variables (request repository owner)
 - `.prettierrc` - code formatting configuration
@@ -43,7 +43,7 @@ LATT_PROD_API_URL=ProductionBackEndAPIServerUrl
 
 ## Deployment
 
-The `master` branch of this repository is automatically deployed [to Netlify](https://latt.to).
+_- temporarily not exposed publically -_
 
 ## Contributing
 
